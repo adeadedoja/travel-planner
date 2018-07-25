@@ -1,5 +1,12 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700');
 body {
-  margin: 0;
+  margin-top: 50px!important;
   padding: 0;
-  font-family: sans-serif;
+  color:#141513!important;
+  font-size: 12px!important;
+  font-family: 'Poppins', sans-serif!important;
+  background:url(./img/bodybg.jpg)!important;
+}
+.btn-group-sm>.btn, .btn-sm {
+    font-size: .75rem!important;
 }
