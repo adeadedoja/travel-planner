@@ -7,6 +7,6 @@ body {
   font-family: 'Poppins', sans-serif!important;
   background:url(./img/bodybg.jpg)!important;
 }
-.btn-group-sm>.btn, .btn-sm {
+.btn, .form-control {
     font-size: .75rem!important;
 }

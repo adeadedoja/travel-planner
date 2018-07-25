@@ -67,7 +67,7 @@ class App extends Component {
   //categoryList
   CategoryList = (categories) => {
     const listItems = categories.map((category) =>
-      <Col md="4" key={category.toString()}>
+      <Col md="4" key={category.name.toString()}>
           <Category data={category} />
       </Col>
     );
