@@ -80,7 +80,7 @@ class App extends Component {
     return (
       <Container className="maincontainer">
           <Row>
-              <Col md="9">
+              <Col className="text-center">
                 <p className="text-white mb-0 pb-0"><small>Hi Dami,</small></p>
                 <h2 className="display-4 mt-0 pt-0 b6 text-white">What you doing in barcelona?</h2>
               </Col>
