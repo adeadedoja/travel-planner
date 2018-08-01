@@ -36,7 +36,7 @@ class Activity extends Component {
                 </Row>  
                 <Modal isOpen={this.state.modal} toggle={this.toggle} className={this.props.className}>
                     <ModalHeader toggle={this.toggle}>{this.state.title}</ModalHeader>
-                    <ModalBody>
+                    <ModalBody className="activity__description--wrap">
                         {this.state.description}
                     </ModalBody>
                 </Modal>

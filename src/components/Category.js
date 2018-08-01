@@ -71,6 +71,8 @@ class Category extends Component {
                             <Form onSubmit={this.addActivity}>
                                 <FormGroup>
                                         <Input type="text" name="title" value={this.state.title} onChange={this.handleChange} placeholder="Name of Activity" />
+                                </FormGroup>
+                                <FormGroup>
                                         <Input type="textarea" name="description" value={this.state.description} onChange={this.handleChange}  placeholder="Description of Activity" />
                                 </FormGroup>
                                 <FormGroup>
