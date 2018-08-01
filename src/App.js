@@ -3,9 +3,9 @@ import { Container, Row, Col } from 'reactstrap';
 import './App.css';
 import Category from "./components/Category";
 import { library } from '@fortawesome/fontawesome-svg-core'
-import { faPlus, faCoffee, faChevronRight } from '@fortawesome/free-solid-svg-icons'
+import { faPlus, faTimes, faChevronRight } from '@fortawesome/free-solid-svg-icons'
 
-library.add(faPlus, faChevronRight)
+library.add(faPlus, faChevronRight, faTimes)
 
 const data = [
   {

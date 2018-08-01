@@ -43,7 +43,7 @@ class Category extends Component {
     ActivityList = (activities) => {
         const listItems = activities.map((activity) =>
             <div key={activity.title.toString()}>
-                <Activity title={activity.title} />
+                <Activity title={activity.title} description={activity.description} />
             </div>
         );
         return (
