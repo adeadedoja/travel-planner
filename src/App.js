@@ -91,7 +91,7 @@ class App extends Component {
                 <img src="undraw_departing_lsgy.svg" className="img-fluid" />
               </Col>
               <Col md="9">
-                <p className="text-white mb-0 pb-0 pt-4"><small>Hi Dami,</small></p>
+                <p className="text-white mb-0 pb-0 pt-4"><small>Howdy Traveller,</small></p>
                 <h1 className="display-4 mt-0 pt-0 b6 text-white">What you doing in barcelona?</h1>
               </Col>
             </Row>
