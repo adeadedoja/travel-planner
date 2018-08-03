@@ -7,6 +7,7 @@ class Activity extends Component {
         super(props);
         this.state = {
             title: props.title,
+            key: 2,
             description: props.description,
             modal: false
         }
@@ -20,10 +21,11 @@ class Activity extends Component {
         });
     }
 
-    //delete function
+    //get activity and category id and delete
     delete() {
-        console.log('delete');
+        this.props.delete(2);
     }
+
 
     render() {
         return (

@@ -39,6 +39,11 @@ class Category extends Component {
             [e.target.name]: e.target.value
         });
     }
+
+    //delete activity, the delete button is actually in the activity.js, but the data is in App.js, grandparent-child
+    delete = (index) => {
+        console.log(index);
+    }
     //activity list
     ActivityList = (activities) => {
         const listItems = activities.map((activity) =>
